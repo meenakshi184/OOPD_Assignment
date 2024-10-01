@@ -1,0 +1,43 @@
+Project README
+Overview
+This project encompasses solutions for three distinct questions, each implemented through its respective C++ source file. The solutions are designed to handle specific tasks and process relevant data as required.
+File Structure
+
+Question 1:
+Source File:q1.cpp
+Input File: data.csv
+
+Question 2:
+Source File: q2.cpp
+Input File: facult_data.csv
+
+Question 3:
+Source File: q3.cpp
+Input File: no input file needed
+
+Compilation Instructions
+Question 1
+Compile the Source File
+g++ -c Q1.cpp
+g++ -g -o debug1 Q1.o
+g++ -O3 -o optimize1 Q1.o
+
+Question 2
+Compile the Source File
+g++ -c Q2.cpp
+g++ -g -o debug2 Q2.o
+g++ -O3 -o optimize2 Q2.o
+
+Question 3
+Compile the Source File
+g++ -c Q3.cpp
+g++ -g -o debug3 Q3.o
+g++ -O3 -o optimize3 Q3.o
+
+Purpose
+debug1, debug2, debug3: These executables are intended for debugging and testing, providing useful information for debugging tools.
+optimize1, optimize2, optimize3: These executables are optimized for performance, suitable for production and real-world use.
+
+The input file that we are using here is data2.txt which contain the information regarding department of CSE, ECE, CB, SSH, HCD, Math and it contain the information regarding Name, Designation, Room number, phone number, email id.
+
+Source:ChatGPT, Apna College 
