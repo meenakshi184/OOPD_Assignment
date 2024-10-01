@@ -1,0 +1,7 @@
+debug :
+	g++ -g -c q2.cpp
+	g++ -Wall q2.o -o q2_debug
+
+optmize:
+	g++ -O2 -c q2.cpp
+	g++ -Wall q2.o -o q2_opt	
